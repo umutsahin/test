@@ -9,7 +9,7 @@ gitea:
   config:
     server:
       DOMAIN: 0.0.0.0
-      ROOT_URL: http://0.0.0.0:33000/
+      ROOT_URL: http://0.0.0.0:32000/
   admin:
     username: optiva
     password: password
@@ -17,4 +17,4 @@ gitea:
 service:
   http:
     type: NodePort
-    nodePort: 33000
+    nodePort: 32000
