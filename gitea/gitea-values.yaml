@@ -8,7 +8,7 @@ ingress:
     - paths:
         - path: /
 #        - path: /gitea(/|$)(.*)
-#          pathType: Prefix
+          pathType: Prefix
 gitea:
   config:
     server:
