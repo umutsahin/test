@@ -1,11 +1,7 @@
 ingress:
   enabled: true
+  className: nginx
   hosts:
-    - host: localhost
-      paths:
+    - paths:
         - path: /gitea
           pathType: Prefix
-gitea:
-  config:
-    server:
-      ROOT_URL: http://localhost/gitea
