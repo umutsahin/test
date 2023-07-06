@@ -8,4 +8,4 @@ ingress:
 gitea:
   config:
     server:
-      STATIC_URL_PREFIX: /gitea
+      ROOT_URL: http://localhost/gitea
