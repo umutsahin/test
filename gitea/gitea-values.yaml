@@ -11,9 +11,9 @@ gitea:
       DOMAIN: 0.0.0.0
       ROOT_URL: http://0.0.0.0:33000/
   admin:
-    username: gitea
+    username: optiva
     password: password
-    email: "gitea@optiva.com"
+    email: "optiva@optiva.com"
 service:
   http:
     type: NodePort
