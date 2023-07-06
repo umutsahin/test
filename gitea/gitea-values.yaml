@@ -10,8 +10,9 @@ ingress:
 #        - path: /gitea(/|$)(.*)
           pathType: Prefix
 gitea:
-#  config:
-#    server:
+  config:
+    server:
+      ROOT_URL: http://0.0.0.0
 #      ROOT_URL: http://0.0.0.0/gitea
 #      STATIC_URL_PREFIX: /gitea
   admin:
