@@ -12,4 +12,5 @@ grafana:
       serve_from_sub_path: true
   ingress:
     enabled: true
+    ingressClassName: nginx
     path: "/grafana"
