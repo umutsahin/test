@@ -12,7 +12,7 @@ ingress:
 gitea:
   config:
     server:
-      ROOT_URL: http://localhost
+      DOMAIN: localhost
 #      ROOT_URL: http://0.0.0.0/gitea
 #      STATIC_URL_PREFIX: /gitea
   admin:
