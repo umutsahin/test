@@ -3,9 +3,9 @@ ingress:
   className: nginx
   hosts:
     - paths:
-        - path: /gitea
+        - path: /gitea/
           pathType: Prefix
 gitea:
   config:
     server:
-      ROOT_URL: http://0.0.0.0/gitea
+      ROOT_URL: http://0.0.0.0
