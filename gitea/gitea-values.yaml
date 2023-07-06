@@ -8,8 +8,8 @@ ingress:
 gitea:
   config:
     server:
-      DOMAIN: localhost
-      ROOT_URL: http://localhost:3000/
+      DOMAIN: 0.0.0.0
+      ROOT_URL: http://0.0.0.0:3000/
   admin:
     username: gitea
     password: password
