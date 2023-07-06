@@ -8,4 +8,4 @@ ingress:
 gitea:
   config:
     server:
-      ROOT_URL: http://0.0.0.0
+      ROOT_URL: http://0.0.0.0/gitea
