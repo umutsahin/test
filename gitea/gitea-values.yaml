@@ -13,7 +13,7 @@ gitea:
   config:
     server:
 #      ROOT_URL: http://localhost:8081
-      ROOT_URL: http://0.0.0.0/gitea
+      ROOT_URL: http://0.0.0.0:3000/gitea
       STATIC_URL_PREFIX: /gitea
   admin:
     username: gitea
