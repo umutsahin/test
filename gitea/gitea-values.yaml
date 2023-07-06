@@ -5,3 +5,7 @@ ingress:
       paths:
         - path: /gitea
           pathType: Prefix
+gitea:
+  config:
+    server:
+      STATIC_URL_PREFIX: /gitea
