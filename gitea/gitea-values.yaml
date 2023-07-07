@@ -8,8 +8,8 @@ ingress:
 gitea:
   config:
     server:
-      DOMAIN: 0.0.0.0
-      ROOT_URL: http://0.0.0.0:32000/
+      DOMAIN: optiva-registry
+      ROOT_URL: http://optiva-registry:32000/
   admin:
     username: optiva
     password: password
