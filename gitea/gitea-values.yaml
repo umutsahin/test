@@ -5,11 +5,14 @@ ingress:
     - paths:
         - path: /
           pathType: Prefix
+  tls:
+    - secretName: gitea-cert
+      hosts: optiva-registry
 gitea:
   config:
     server:
       DOMAIN: optiva-registry
-      ROOT_URL: http://optiva-registry:32000/
+      ROOT_URL: https://optiva-registry:32000/
   admin:
     username: optiva
     password: password
