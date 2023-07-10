@@ -30,6 +30,6 @@ extraVolumes:
     secret:
       secretName: gitea-cert
 extraContainerVolumeMounts:
-  - gitea-cert-vol
+  - name: gitea-cert-vol
     readOnly: true
     mountPath: /data/gitea/custom
