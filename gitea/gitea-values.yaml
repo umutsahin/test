@@ -21,7 +21,7 @@ gitea:
       ENABLE_ACME: true
       ACME_ACCEPTTOS: true
       ACME_DIRECTORY: https
-      ACME_EMAIL: email@example.com
+      ACME_EMAIL: umut.sahin@optiva.com
     log:
       LEVEL: Trace
   admin:
