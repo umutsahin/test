@@ -18,6 +18,8 @@ gitea:
       ROOT_URL: https://registry.optiva.com:32000/
       CERT_FILE: cert/cert.pem
       KEY_FILE: cert/key.pem
+    log:
+      LEVEL: Trace
   admin:
     username: optiva
     password: password
