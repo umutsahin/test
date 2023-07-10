@@ -13,9 +13,9 @@ gitea:
   config:
     RUN_MODE: dev
     server:
-      DOMAIN: registry.optiva.com
+      DOMAIN: registry.optiva-test.com
       PROTOCOL: https
-      ROOT_URL: https://registry.optiva.com:32000/
+      ROOT_URL: https://registry.optiva-test.com:32000/
 #      CERT_FILE: cert/cert.pem
 #      KEY_FILE: cert/key.pem
       ENABLE_ACME: true
