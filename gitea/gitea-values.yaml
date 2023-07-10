@@ -7,7 +7,8 @@ ingress:
           pathType: Prefix
   tls:
     - secretName: gitea-cert
-      hosts: optiva-registry
+      hosts: 
+        - optiva-registry
 gitea:
   config:
     server:
