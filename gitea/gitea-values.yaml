@@ -16,7 +16,7 @@ gitea:
       DOMAIN: optiva-registry
       PROTOCOL: https
       ROOT_URL: https://optiva-registry:32000/
-      CERT_FILE: cert/tls-combined.pem
+      CERT_FILE: cert/tls.crt
       KEY_FILE: cert/tls.key
   admin:
     username: optiva
@@ -32,5 +32,4 @@ extraVolumes:
       secretName: gitea-cert
 extraContainerVolumeMounts:
   - name: gitea-cert-vol
-    readOnly: true
     mountPath: /data/gitea/cert
