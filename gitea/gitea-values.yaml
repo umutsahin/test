@@ -13,6 +13,7 @@ gitea:
   config:
     server:
       DOMAIN: optiva-registry
+      PROTOCOL: https
       ROOT_URL: https://optiva-registry:32000/
   admin:
     username: optiva
