@@ -15,7 +15,7 @@ gitea:
     server:
       DOMAIN: optiva-registry
       PROTOCOL: https
-      ROOT_URL: https://optiva-registry:32000/
+      ROOT_URL: https://optiva-registry.com:32000/
       ENABLE_ACME: true
       ACME_ACCEPTTOS: true
       ACME_DIRECTORY: https
