@@ -13,15 +13,11 @@ gitea:
   config:
     RUN_MODE: dev
     server:
-      DOMAIN: registry.optiva-umut.com
+      DOMAIN: registry.optiva.com
       PROTOCOL: https
-      ROOT_URL: https://registry.optiva-umut.com:32000/
-#      CERT_FILE: cert/cert.pem
-#      KEY_FILE: cert/key.pem
-      ENABLE_ACME: true
-      ACME_ACCEPTTOS: true
-      ACME_DIRECTORY: https
-      ACME_EMAIL: umut.sahin@optiva.com
+      ROOT_URL: https://registry.optiva.com:32000/
+      CERT_FILE: cert/cert.pem
+      KEY_FILE: cert/key.pem
     log:
       LEVEL: Trace
   admin:
