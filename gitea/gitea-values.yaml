@@ -16,8 +16,12 @@ gitea:
       DOMAIN: registry.optiva.com
       PROTOCOL: https
       ROOT_URL: https://registry.optiva.com:32000/
-      CERT_FILE: cert/cert.pem
-      KEY_FILE: cert/key.pem
+#      CERT_FILE: cert/cert.pem
+#      KEY_FILE: cert/key.pem
+      ENABLE_ACME: true
+      ACME_ACCEPTTOS: true
+      ACME_DIRECTORY: https
+      ACME_EMAIL: email@example.com
     log:
       LEVEL: Trace
   admin:
