@@ -15,9 +15,8 @@ gitea:
       DOMAIN: optiva-registry
       PROTOCOL: https
       ROOT_URL: https://optiva-registry:32000/
-      CERT_FILE: tls-combined.pem
-      KEY_FILE: tls.key
-      CUSTOM_PATH: /data/gitea/custom
+      CERT_FILE: custom/tls-combined.pem
+      KEY_FILE: custom/tls.key
   admin:
     username: optiva
     password: password
