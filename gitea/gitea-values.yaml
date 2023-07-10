@@ -16,9 +16,10 @@ gitea:
       DOMAIN: optiva-registry
       PROTOCOL: https
       ROOT_URL: https://optiva-registry:32000/
-      CERT_FILE: cert/tls.crt
-      KEY_FILE: cert/tls.key
       ENABLE_ACME: true
+      ACME_ACCEPTTOS: true
+      ACME_DIRECTORY: https
+      ACME_EMAIL: email@example.com
   admin:
     username: optiva
     password: password
