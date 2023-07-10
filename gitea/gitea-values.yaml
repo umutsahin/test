@@ -15,11 +15,9 @@ gitea:
     server:
       DOMAIN: optiva-registry
       PROTOCOL: https
-      ROOT_URL: https://optiva-registry.com:32000/
-      ENABLE_ACME: true
-      ACME_ACCEPTTOS: true
-      ACME_DIRECTORY: https
-      ACME_EMAIL: umut.sahin@optiva.com
+      ROOT_URL: https://optiva-registry:32000/
+      CERT_FILE: cert/tls-combined.pem
+      KEY_FILE: cert/tls.key
   admin:
     username: optiva
     password: password
